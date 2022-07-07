@@ -52,7 +52,7 @@ function copyFile(dir: string, file: string, outdir: string): void {
 // 获取配置项
 enum Classify {
   easy = 1,
-  middle,
+  medium,
   hard,
 }
 const classify: string = Object.keys(Classify).includes(process.argv[2])
