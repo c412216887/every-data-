@@ -18,7 +18,10 @@ module.exports = {
     },
     ecmaVersion: 12,
     sourceType: 'module',
-    project: './tsconfig.eslint.json'
+    project: [
+      './tsconfig.eslint.json',
+      './packages/type-chanllenge/tsconfig.json'
+    ]
   },
   plugins: ['react', '@typescript-eslint', 'prettier'],
   rules: {
