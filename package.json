@@ -5,7 +5,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "init:type": "pnpm -C --filter @every-data-/type-chanllenge run create-file"
   },
   "publishConfig": {
     "access": "public"
