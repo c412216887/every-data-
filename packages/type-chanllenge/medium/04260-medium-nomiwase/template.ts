@@ -12,5 +12,3 @@ type AllCombinations<
         }[U]
       | ''
   : '';
-
-type R = AllCombinations<'AB'>;
